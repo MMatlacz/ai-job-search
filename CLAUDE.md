@@ -145,3 +145,7 @@ ATS parsers read the PDF's embedded text layer, not the rendered page. Extract i
 - [ ] Email and phone appear as **literal text** in the extraction (icon-glyph noise like `MOBILE-ALT`/`Envelope` is harmless, but a contact detail carried only by an icon or hyperlink is invisible to ATS)
 - [ ] Reading order of the extracted text matches the visual order (single-column stock template is safe; multi-column custom templates are where this breaks)
 - [ ] Posting keywords covered or honestly absent - synonym-only matches tightened to the posting's exact term where truthfully applicable, keywords the profile genuinely supports added to experience bullets, genuine gaps left visible and **never stuffed**
+
+## Repository maintenance instructions
+
+Before maintaining this repository, read the root `AGENTS.md` and applicable nested agent instructions. Its documentation-continuity rules supplement this file; they do not replace the task-specific workflow in this file or make optional job-data synchronization mandatory.
